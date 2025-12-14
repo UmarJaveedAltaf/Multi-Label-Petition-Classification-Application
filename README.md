@@ -55,10 +55,10 @@ Each petition can belong to **multiple EUROVOC categories**, making this a chall
 
 ## 📸 Application Preview
 ---
-![BERT + GRU Prediction](screenshots/bert_gru.png)
-![BERT + BiLSTM Prediction](screenshots/bert_bilstm.png)
-![Passive Aggressive Prediction](screenshots/passive_aggressive.png)
-![Naive Bayes Prediction](screenshots/naive_bayes.png)
+<img src="screenshots/bert_gru.png" width="600"/>
+<img src="screenshots/bert_bilstm.png" width="600"/>
+<img src="screenshots/passive_aggressive.png" width="600"/>
+<img src="screenshots/naive_bayes.png" width="600"/>
 
 ---
 
