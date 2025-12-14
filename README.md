@@ -189,18 +189,6 @@ This allows users to explore the semantic meaning and context of each predicted 
 - **Language:** English
 
 ---
-
-## 🎯 Future Improvements
-
-- [ ] Add model explainability features (SHAP, LIME)
-- [ ] Implement multilingual support
-- [ ] Deploy to cloud platform (Streamlit Cloud, Heroku)
-- [ ] Add batch prediction capability
-- [ ] Incorporate user feedback loop for model improvement
-- [ ] Export predictions to CSV/JSON
-
----
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -212,21 +200,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Umar Javeed Altaf**  
 Graduate Student – Artificial Intelligence  
 Northeastern University
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
----
-
-## 📧 Contact
-
-For questions or feedback, please reach out through:
-- GitHub Issues
-- Email: [your-email@northeastern.edu]
-
 ---
 
 ## ⭐ Acknowledgments
