@@ -57,11 +57,13 @@ Each petition can belong to **multiple EUROVOC categories**, making this a chall
 
 Place the screenshots in a folder named `screenshots/`:
 
-```markdown
+---
 ![BERT + GRU Prediction](screenshots/bert_gru.png)
 ![BERT + BiLSTM Prediction](screenshots/bert_bilstm.png)
 ![Passive Aggressive Prediction](screenshots/passive_aggressive.png)
 ![Naive Bayes Prediction](screenshots/naive_bayes.png)
+
+---
 
 📦 Model Files (Important)
 
@@ -74,6 +76,8 @@ naive_bayes_model.pkl
 passive_aggressive_model.pkl
 bert_gru_model.pt
 bert_bilstm_model.pt
+
+---
 
 🧠 Exporting Models from the Notebook:
 
@@ -91,14 +95,15 @@ joblib.dump(model_pa, "passive_aggressive_model.pkl")
 torch.save(model_bert_gru, "bert_gru_model.pt")
 torch.save(model_bilstm, "bert_bilstm_model.pt")
 
+---
 
 ▶️ Running the Application
 streamlit run streamlit-app.py
 
 
-Open in browser:
+Open in browser:http://localhost:8501
 
-http://localhost:8501
+---
 
 📂 Project Structure
 NLP_FINAL_PROJECT/
@@ -108,8 +113,7 @@ NLP_FINAL_PROJECT/
 ├── *.pkl / *.pt             # Saved models
 ├── README.md                # Documentation
 └── screenshots/             # UI screenshots
-
-
+---
 🌐 EUROVOC Integration
 
 Each predicted label links directly to the official EUROVOC concept page:
@@ -119,8 +123,11 @@ https://op.europa.eu/en/web/eu-vocabularies/eurovoc
 
 This allows users to explore the semantic meaning of each predicted category.
 
+---
 👤 Author
 
 Umar Javeed Altaf
 Graduate Student – Artificial Intelligence
 Northeastern University
+
+---
