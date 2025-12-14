@@ -105,14 +105,14 @@ Open in browser:http://localhost:8501
 
 ---
 
-📂 Project Structure
 NLP_FINAL_PROJECT/
-├── codebase.ipynb           # Training & evaluation notebook
-├── streamlit-app.py         # Streamlit UI
-├── requirements.txt         # Dependencies
-├── *.pkl / *.pt             # Saved models
-├── README.md                # Documentation
-└── screenshots/             # UI screenshots
+├── codebase.ipynb
+├── streamlit-app.py
+├── requirements.txt
+├── *.pkl / *.pt
+├── README.md
+└── screenshots/
+
 ---
 🌐 EUROVOC Integration
 
